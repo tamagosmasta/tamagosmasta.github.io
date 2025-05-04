@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Kerupuk Rumput Laut</title>
+
+        <!--
+- favicon
+-->
+        <link
+            rel="shortcut icon"
+            href="../assets/images/logo/favicon.ico"
+            type="image/x-icon"
+        />
+
+        <!--
+- custom css link
+-->
+        <link rel="stylesheet" href="wishas.css" />
+        <link rel="stylesheet" href="../assets/css/style-prefix.css" />
+
+        <!--
+- google font link
+-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header>
+            <div class="header-top">
+                <div class="container">
+                    <ul class="header-social-container">
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-linkedin"></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="header-alert-news">
+                        <p>
+                            <b>SMASTA Market On The Go</b>
+                        </p>
+                    </div>
+
+                    <div class="header-top-actions">
+                        <select name="currency">
+                            <option value="usd">IDR</option>
+                        </select>
+
+                        <select name="language">
+                            <option value="en-US">Bahasa Indonesia</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-main">
+                <div class="container">
+                    <a href="#" class="header-logo">
+                        <img
+                            src="../assets/images/logo/logo.svg"
+                            alt="Karsaku Logo"
+                            width="120"
+                            height="36"
+                        />
+                    </a>
+
+                    <div class="header-search-container">
+                        <input
+                            type="search"
+                            name="search"
+                            class="search-field"
+                            placeholder="Masukkan nama produk..."
+                        />
+
+                        <button class="search-btn">
+                            <ion-icon name="search-outline"></ion-icon>
+                        </button>
+                    </div>
+
+                    <div class="header-user-actions">
+                        <button class="action-btn">
+                            <ion-icon name="person-outline"></ion-icon>
+                        </button>
+
+                        <button class="action-btn">
+                            <ion-icon name="heart-outline"></ion-icon>
+                            <span class="count">0</span>
+                        </button>
+
+                        <button class="action-btn">
+                            <ion-icon name="bag-handle-outline"></ion-icon>
+                            <span class="count">3</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="desktop-navigation-menu">
+                <div class="container">
+                    <ul class="desktop-menu-category-list">
+                        <li class="menu-category">
+                            <a href="../index.html" class="menu-title"
+                                >Beranda</a
+                            >
+                        </li>
+
+                        <li class="menu-category">
+                            <a
+                                href="../Kategori/semuaproduk.html"
+                                class="menu-title"
+                                >Semua Produk</a
+                            >
+                        </li>
+
+                        <li class="menu-category">
+                            <a href="../Kategori/kelas1.html" class="menu-title"
+                                >Kelas XI 1</a
+                            >
+                        </li>
+
+                        <li class="menu-category">
+                            <a href="../Kategori/kelas2.html" class="menu-title"
+                                >Kelas XI 2</a
+                            >
+                        </li>
+
+                        <li class="menu-category">
+                            <a href="../Kategori/kelas3.html" class="menu-title"
+                                >Kelas XI 3</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="mobile-bottom-navigation">
+                <button class="action-btn" data-mobile-menu-open-btn>
+                    <ion-icon name="menu-outline"></ion-icon>
+                </button>
+
+                <button class="action-btn">
+                    <a href="../index.html"
+                        ><ion-icon name="home-outline"></ion-icon
+                    ></a>
+                </button>
+
+                <button class="action-btn" data-mobile-menu-open-btn>
+                    <ion-icon name="grid-outline"></ion-icon>
+                </button>
+            </div>
+
+            <nav class="mobile-navigation-menu has-scrollbar" data-mobile-menu>
+                <div class="menu-top">
+                    <h2 class="menu-title">Menu</h2>
+
+                    <button class="menu-close-btn" data-mobile-menu-close-btn>
+                        <ion-icon name="close-outline"></ion-icon>
+                    </button>
+                </div>
+
+                <ul class="mobile-menu-category-list">
+                    <li class="menu-category">
+                        <a href="../index.html" class="menu-title">Beranda</a>
+                    </li>
+
+                    <li class="menu-category">
+                        <a href="../Kategori/semuaproduk.html"
+                            ><button class="accordion-menu" data-accordion-btn>
+                                <p class="menu-title">Semua Produk</p>
+                            </button></a
+                        >
+                    </li>
+                </ul>
+
+                <div class="menu-bottom">
+                    <ul class="menu-category-list">
+                        <li class="menu-category">
+                            <button class="accordion-menu" data-accordion-btn>
+                                <p class="menu-title">Bahasa</p>
+
+                                <ion-icon
+                                    name="caret-back-outline"
+                                    class="caret-back"
+                                ></ion-icon>
+                            </button>
+
+                            <ul class="submenu-category-list" data-accordion>
+                                <li class="submenu-category">
+                                    <a href="#" class="submenu-title"
+                                        >Bahasa Indonesia</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="menu-category">
+                            <button class="accordion-menu" data-accordion-btn>
+                                <p class="menu-title">Mata Uang</p>
+                                <ion-icon
+                                    name="caret-back-outline"
+                                    class="caret-back"
+                                ></ion-icon>
+                            </button>
+
+                            <ul class="submenu-category-list" data-accordion>
+                                <li class="submenu-category">
+                                    <a href="#" class="submenu-title">IDR</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <ul class="menu-social-container">
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-linkedin"></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <!--=============== BREADCRUMB ===============-->
+            <section class="breadcrumb"></section>
+
+            <!--=============== DETAILS ===============-->
+            <section id="prodetails" class="section-p1">
+                <div class="product-featured">
+                    <div class="showcase-wrapper has-scrollbar">
+                        <div class="showcase-container">
+                            <div class="showcase">
+                                <div class="showcase-banner">
+                                    <img
+                                        src="../assets/images/products/clothes-9.jpg"
+                                        alt="Kerupuk Rumput Laut"
+                                        class="showcase-img"
+                                    />
+                                </div>
+
+                                <div class="showcase-content">
+                                    <div class="showcase-rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+
+                                    <h3 class="judul">Kerupuk Rumput Laut</h3>
+
+                                    <a
+                                        href="../Kategori/kelas1.html"
+                                        class="showcase-title"
+                                        >Kelompok KKN (XI 1)
+                                    </a>
+
+                                    <div class="price-box">
+                                        <p class="price">Rp8.000</p>
+                                    </div>
+                                    <div class="tombol">
+                                        <input
+                                            class="banyak"
+                                            type="number"
+                                            value="1"
+                                        />
+                                        <button class="add-cart-btn">
+                                            <ion-icon
+                                                style="color: white"
+                                                name="logo-whatsapp"
+                                            ></ion-icon>
+                                            &nbsp Beli
+                                        </button>
+                                        <script>
+                                            document
+                                                .querySelector(".add-cart-btn")
+                                                .addEventListener(
+                                                    "click",
+                                                    function () {
+                                                        // Ambil nilai dari input
+                                                        const jumlah =
+                                                            document.querySelector(
+                                                                ".banyak"
+                                                            ).value;
+
+                                                        // Buat pesan
+                                                        const pesan = `Halo, saya ingin membeli ${jumlah} Kerupuk Rumput Laut. Apakah masih tersedia?
+                                                        Dikirim dari Tamago`;
+
+                                                        // Encode pesan
+                                                        const encodedPesan =
+                                                            encodeURIComponent(
+                                                                pesan
+                                                            );
+
+                                                        // Nomor tujuan WA (ganti dengan nomor kamu)
+                                                        const nomor =
+                                                            "62895384440118";
+
+                                                        // Buat link dan arahkan
+                                                        const linkWA = `https://wa.me/${nomor}?text=${encodedPesan}`;
+                                                        window.open(
+                                                            linkWA,
+                                                            "_blank"
+                                                        );
+                                                    }
+                                                );
+                                        </script>
+                                        <button class="add-cart-btn">
+                                            <a href="">
+                                                <ion-icon
+                                                    style="color: white"
+                                                    name="logo-instagram"
+                                                ></ion-icon
+                                            ></a>
+                                        </button>
+                                    </div>
+
+                                    <h3 class="deskripsi">Deskripsi</h3>
+
+                                    <p class="showcase-desc-pro">
+                                        Kerupuk rumput laut enak bisa di makan
+                                        🤤🤤🤤.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="wishas" id="wishas">
+                <svg
+                    style="display: none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 1440 320"
+                    aria-hidden="true"
+                >
+                    <path
+                        fill="#f8f9fa"
+                        fill-opacity="1"
+                        d="M0,0L48,32C96,64,192,128,288,138.7C384,149,480,107,576,106.7C672,107,768,149,864,144C960,139,1056,85,1152,69.3C1248,53,1344,75,1392,85.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+                    ></path>
+                </svg>
+                <div>
+                    <div></div>
+                </div>
+
+                <div data-aos="zoom-in" data-aos-duration="1000">
+                    <h2>Ulasan</h2>
+                    <form>
+                        <label for="name">Nama</label>
+                        <input
+                            type="text"
+                            name="name"
+                            id="name"
+                            placeholder="Masukan Nama Anda"
+                            autocomplete="off"
+                            required
+                        />
+                        <label for="status">Rating</label>
+                        <select
+                            name="status"
+                            id="status"
+                            required
+                            aria-required="true"
+                        >
+                            <option value="" disabled selected>Rating</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <label for="message">Ulasan </label>
+                        <textarea
+                            name="message"
+                            id="message"
+                            placeholder="Tulis Ulasan"
+                            required
+                            minlength="8"
+                        ></textarea>
+                        <button type="submit">Kirim</button>
+                    </form>
+                </div>
+
+                <div data-aos="zoom-in" data-aos-duration="1000">
+                    <p style="margin-bottom: 0.5rem"></p>
+                    <hr />
+
+                    <ul aria-label="list comentar"></ul>
+                    <hr style="margin-top: 1rem" />
+                    <div class="button-grup">
+                        <button>
+                            <i class="bx bxs-left-arrow-circle"></i>
+                            <span>prev</span>
+                        </button>
+                        <span class="page-number"></span>
+                        <button>
+                            <span>next</span>
+                            <i class="bx bxs-right-arrow-circle"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== DETAILS TAB ===============-->
+            <section class="details__tab"></section>
+
+            <!--=============== PRODUCTS ===============-->
+            <section class="products"></section>
+
+            <!--=============== NEWSLETTER ===============-->
+            <section class="newsletter"></section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer>
+            <div class="footer-bottom">
+                <div class="container">
+                    <p class="copyright">
+                        Copyright &copy; <a href="#">Tamago</a> all rights
+                        reserved.
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <!--
+    - custom js link
+  -->
+        <script>
+            window.config = {
+                api: "https://script.google.com/macros/s/AKfycbxKYOZZryMFkLhsab4AkOEcmtRI7rcxsSFKQAKQkoCycJ0nYaKevMO4NQ-LBastHDb_/exec",
+                sheetName: "comentar9" // ganti sesuai halaman
+            };
+        </script>
+        <script type="module" src="wishas.js"></script>
+        <script src="main.js" type="module"></script>
+
+        <script src="../assets/js/script.js"></script>
+        <!--
+- ionicon link
+-->
+        <script
+            type="module"
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+        ></script>
+    </body>
+</html>
